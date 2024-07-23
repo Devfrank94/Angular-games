@@ -1,13 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
-@import "primeng/resources/themes/lara-light-blue/theme.css";
+
+// Theme
+@import "primeng/resources/themes/lara-light-amber/theme.css";
+// @import "primeng/resources/themes/lara-dark-amber/theme.css";
+
+//PrimeNG import
 @import "primeng/resources/primeng.css";
 @import "primeicons/primeicons.css";
 @import "primeflex/primeflex.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+/* Order */
+@layer reset, primeng;
 
 @layer primeng {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    font-family: "Share Tech", sans-serif;
+    font-style: oblique;
+    }
+}
+
+@layer reset {
+
 }
